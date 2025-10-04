@@ -14,13 +14,13 @@ st.set_page_config(
 # This is the correct way to handle secrets!
 # We'll set this in Streamlit's settings later.
 try:
-    api_key = st.secrets["API-KEY"]
+    api_key = st.secrets["GEMINI_API_KEY"]
     genai.configure(api_key=api_key)
 except Exception as e:
     st.error(f"Error configuring the API. Please make sure you have set your GEMINI_API_KEY secret. Error: {e}")
 
 # Initialize the Gemini Pro model
-model = genai.GenerativeModel('gemini-pro') # Using a stable, recommended model
+model = genai.GenerativeModel('gemini-2.5-flash') # Using a stable, recommended model
 
 def get_intent(user_query: str) -> dict:
     """
