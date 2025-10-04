@@ -35,8 +35,8 @@ To run this project on your own machine, follow these steps:
 
 1.  **Clone the repository:**
     ```sh
-    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-    cd your-repo-name
+    git clone https://github.com/ErAkhileshSingh/My-Intent-App.git
+cd My-Intent-App
     ```
 
 2.  **Install the required libraries:**
