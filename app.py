@@ -20,7 +20,7 @@ except Exception as e:
     st.error(f"Error configuring the API. Please make sure you have set your GEMINI_API_KEY secret. Error: {e}")
 
 # Initialize the Gemini Pro model
-model = genai.GenerativeModel('gemini-1.0-pro') # Using a stable, recommended model
+model = genai.GenerativeModel('gemini-pro') # Using a stable, recommended model
 
 def get_intent(user_query: str) -> dict:
     """
