@@ -4,8 +4,7 @@ An interactive web application that uses Google's Gemini API to classify user in
 
 ## ✨ Live Demo
 
-**You can try the live application here:** [https://your-app-name.streamlit.app](https://your-app-name.streamlit.app)
-*(Replace with your actual Streamlit link after deploying)*
+**You can try the live application here:** https://my-intent-app-krrjk5pwb6tapauw5xc7as.streamlit.app/
 
 
 
